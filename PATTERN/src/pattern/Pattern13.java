@@ -9,7 +9,7 @@ public class Pattern13 {
 		int	b=i<(a/2)?a-i:i;
 		
 			for(int j=b;j>0;j--) {
-				System.out.print(" ");
+				System.out.print("  ");
 			}
 			for(int k=a-b;k>0;k--)if(i==1||i==9) {
 				System.out.print("  ");
@@ -17,8 +17,8 @@ public class Pattern13 {
 				
 				
 			else if(k==1||k==a-b) {
-				System.out.print("* ");
-			}else {System.out.print("  ");}
+				System.out.print("*  ");
+			}else {System.out.print("    ");}
 			
 			
 			

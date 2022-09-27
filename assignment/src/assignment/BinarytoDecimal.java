@@ -4,8 +4,8 @@ public class BinarytoDecimal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		long a =1000001111;
-		int b = 0;
+		int a =1000000000;
+		long b = 0;
 		int c = 0;
 		int i = 1;
 		int d = 0;
