@@ -19,19 +19,14 @@ public class Prime {
 			System.out.print("NOT PRIME ");
 
 		}
-
-		/*int k = 11;
-		int c = 0;
-		for (int a = 2; a < k; a++) {
-			if (k % a == 0)
-				c++;
-
-		}
-		if (c > 0) {
-			System.out.print("NOT PRIME");
-		} else {
-			System.out.print("PRIME");
-		}*/
 	}
+}
+/*
+ * int k = 11; int c = 0; for (int a = 2; a < k; a++) { if (k % a == 0) c++;
+ * 
+ * } if (c > 0) { System.out.print("NOT PRIME"); } else {
+ * System.out.print("PRIME"); }
+ */
+}
 
 }
