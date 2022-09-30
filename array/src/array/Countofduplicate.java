@@ -10,14 +10,12 @@ public class Countofduplicate {
 		for (int y : a) {
 			b[z] = y;
 			z++;
-		}
-
-		for (int k : a) {
+			}
+for (int k : a) {
 			int n = 0;
 			int g = 0;
 			for (int h : b) {
-
-				if (k == h) {
+           if (k == h) {
 					b[g] = 0;
 					n++;
 				}
@@ -26,14 +24,10 @@ public class Countofduplicate {
 			if (n > 1)
 				System.out.println(k + "=" + n);
 		}
-
-	}
-
-	public static void main(String[] args) {
+}
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Countofduplicate p = new Countofduplicate();
 		p.count();
-
-	}
-
+}
 }
