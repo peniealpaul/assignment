@@ -19,6 +19,7 @@ public class RemovingAllTheDuplicateElements {
 			}
 		}
 		for (int u : b) {
+			if(u!=0)
 			System.out.print(u + ", ");
 		}
 
