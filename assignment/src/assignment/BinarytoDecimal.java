@@ -5,7 +5,7 @@ public class BinarytoDecimal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a =1000000000;
-		long b = 0;
+		int b = 0;
 		int c = 0;
 		int i = 1;
 		int d = 0;

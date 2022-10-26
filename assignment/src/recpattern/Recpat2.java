@@ -6,23 +6,26 @@ public class Recpat2 {
 		re(a,a,a);
 	}
 	void re(int a ,int b, int c ) {
-		System.out.print(" *");
+		System.out.print(" "+a);
 		a--;
 		if(a==0) {
 			System.out.println();
 			r(a,b,c);
-		}if(a>0) {
+		}
+		if(a>0) {
 			re(a,b,c);
 		}
-		}void r(int a,int b, int c){
+		}
+	void r(int a,int b, int c){
+		
 		b--;
 		if(b>0) {
-			re(b,b,c);
+			re(c,b,c);
 		}
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Recpat2 s=new Recpat2();
-		s.rec(10);
+		s.rec(9);
 	}
 }

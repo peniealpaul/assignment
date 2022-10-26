@@ -29,7 +29,7 @@ public class Recpat10 {
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
 			 Recpat10 c=new  Recpat10 ();
-			 c.rec(5);
+			 c.rec(9);
 		}
 
 	}

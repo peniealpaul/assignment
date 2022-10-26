@@ -1,35 +1,27 @@
 package array;
 
 public class RemovingAllTheDuplicateElements {
-	int a[] = { 1, 2, 3, 9, 4, 4, 5, 5, 5, 6, 6, 7, 8, 9, 9 };
-	int b[] = new int[a.length];
+	public static void main(String[] args) {
+		int a[] = { 1, 3,3,6,4,4,6};
+		         //{ 1, 3,0,6,4,0,0};
+		
+		int b[] = new int[a.length];
 
-	void duplicate() {
-		int n = 0;
-		for (int k : a) {
-			b[n] = k;
-			n++;
-
+		for (int k = 0; k < a.length; k++) {
+			b[k] = a[k];
 		}
+		
+		
 		for (int i = 0; i < a.length; i++) {
-			for (int y = 0; y < b.length; y++) {
-				if ((a[i] == b[y]) && (i != y) && (i < y)) {
+			for (int y = i+1; y < b.length; y++) {
+				if ((a[i] == b[y])  ) {
 					b[y] = 0;
 				}
 			}
 		}
-		for (int u : b) {
-			if(u!=0)
-			System.out.print(u + ", ");
+		for (int i = 0; i < b.length; i++) {
+			if (b[i] != 0)
+				System.out.print(b[i] + ", ");
 		}
-
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		RemovingAllTheDuplicateElements v = new RemovingAllTheDuplicateElements();
-		v.duplicate();
-
-	}
-
 }

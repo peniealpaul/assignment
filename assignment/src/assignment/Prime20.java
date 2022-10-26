@@ -13,10 +13,7 @@ public class Prime20 {
 			}
 			if (b) {
 				System.out.println(a);
-
 			}
-
 		}
-
 	}
 }

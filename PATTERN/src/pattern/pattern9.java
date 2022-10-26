@@ -10,7 +10,7 @@ public class pattern9 {
 			for(int j=0;j<i;j++) {
 				System.out.print(  n+" ");
 				n++;
-			}System.out.println();
+			}System.out.println(); 
 		}
 		
 

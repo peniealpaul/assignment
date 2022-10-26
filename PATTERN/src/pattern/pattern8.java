@@ -12,7 +12,7 @@ public class pattern8 {
 				System.out.print("  ");
 			}
 			for(int k=a-b;k>0;k--) {
-				System.out.print(" *  ");
+				System.out.print("  * ");
 			
 			
 			

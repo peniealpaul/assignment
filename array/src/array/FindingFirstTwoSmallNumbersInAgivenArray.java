@@ -1,7 +1,7 @@
 package array;
 
 public class FindingFirstTwoSmallNumbersInAgivenArray {
-	int a[] = { 765, 1, 2, 3, 4, 5, 6, 7, 8, 9, 78 };
+	int a[] = { 765, 1,0,-1, 2, 3, 4, 5, 6, 7, 8, 9, 78 };
 
 	void twosmall() {
 		int b = a[0];

@@ -7,7 +7,7 @@ public class pattern7 {
 		int a=10;
 		for(int i=0;i<=a;i++) {
 			for(int j=0;j<=a;j++) {if(i+j==10) {
-				System.out.print("* ");}
+				System.out.print(" *");}
 				else {System.out.print("  ");
 					
 				}

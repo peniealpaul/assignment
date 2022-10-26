@@ -1,4 +1,4 @@
-package assignment;
+ package assignment;
 
 public class ArmstrongNumber {
 
@@ -16,9 +16,6 @@ public class ArmstrongNumber {
 		while(a>0) {
 		a= a/10;
 		n++;
-		
-			
-			
 		}
 		//System.out.println(n);
 		while(t>0) {
@@ -26,7 +23,6 @@ public class ArmstrongNumber {
 			b=k;
 			for(int i=1;i<n;i++) {
 				//System.out.println();
-			
 			b=b*k;}
 			t=t/10;
 			c=c+b;
@@ -38,9 +34,9 @@ public class ArmstrongNumber {
 			
 			System.out.println(c);
 			
-		}//else {
+		}else {
 			//System.out.println("not Armstrong");
 		}
 		
+		}}}
 		
-		}}
