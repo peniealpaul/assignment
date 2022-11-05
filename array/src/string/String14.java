@@ -11,5 +11,4 @@ for(char k:a) {
 }
 System.out.println(b);
 	}
-
 }
