@@ -13,7 +13,7 @@ public class BinarytoDecimal {
 		while (a > 0) {
 			boolean t = false;
 			c = 0;
-			if (a % 2 == 1) {
+			if (a % 2 == 1) { 
 				t = true;
 				c = 1;
 				c = (c * i);
