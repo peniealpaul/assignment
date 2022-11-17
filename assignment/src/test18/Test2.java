@@ -3,11 +3,8 @@ package test18;
 public class Test2 {
 	void rev(int a) {
 		while(a>0) {
-		int b=a%10;
-		a=a/10;
-		int c=a%10;
-		a=a/10;
-		System.out.print(c);
+		int b=a%100;
+		a=a/100;
 		System.out.print(b);
 		
 		}

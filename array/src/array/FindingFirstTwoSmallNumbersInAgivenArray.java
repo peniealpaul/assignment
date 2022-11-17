@@ -15,24 +15,21 @@ public class FindingFirstTwoSmallNumbersInAgivenArray {
 		for (int k : a) {
 			if ((c > k)) {
 				c = k;
-
-			}
+              }
 		}
 		System.out.println(c);
 		int d = b;
 		for (int k : a) {
 			if ((d > k) && (k != c)) {
 				d = k;
-
-			}
+                }
 		}
 		System.out.println(d);
 	}
-
-	public static void main(String[] args) {
+   public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		FindingFirstTwoSmallNumbersInAgivenArray p = new FindingFirstTwoSmallNumbersInAgivenArray();
+      FindingFirstTwoSmallNumbersInAgivenArray p = 
+    		  new FindingFirstTwoSmallNumbersInAgivenArray();
 		p.twosmall();
 
 	}
