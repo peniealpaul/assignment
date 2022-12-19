@@ -2,7 +2,7 @@ package array;
 
 public class RemovingAllTheDuplicateElements {
 	public static void main(String[] args) {
-		int a[] = { 1, 3,3,6,4,4,6};
+		int a[] = { 1,2,1, 3,3,6,4,4,6};
 		         //{ 1, 3,0,6,4,0,0};
 		
 		int b[] = new int[a.length];

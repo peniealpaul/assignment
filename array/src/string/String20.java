@@ -4,47 +4,29 @@ public class String20 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String a = "il";
-		String b = "ie";
-		int y = 0;
-		boolean u = false;
-		int l = 0;
-		int i = 0;
+		String a = "  ";
+		String b = "i ";
+		int count = 0;
+		
+		char c[] = b.toCharArray();
 		if (a.length() == b.length()) {
-			while (l < a.length()) {
-				y = 0;
-				System.out.println(l);
-				l++;
-				if (u) {
-					break;
-				}
-				// System.out.println();
-
-				for (i = 0; i < a.length(); i++) {
-					if (u) {
+			for (int i = 0; i < a.length(); i++) {
+				for (int j = 0; j < a.length(); j++) {
+					if (a.charAt(j) == c[i]) {
+						count++;
+						c[j] =' ';
 						break;
 					}
-					char c = a.charAt(i);
-					// System.out.println("h");
-					for (int j = 0; j < a.length(); j++) {
-						System.out.println("j");
-						char d = b.charAt(j);
-						if (c == d) {
-							u = false;
-							y++;
-							break;
-						} 
-					}if(y==0)
-						u = true;
-				}
-				
-			}
+				}}
 		}
-        System.out.println(l);
-		if (l == a.length()) {
+		else {
+			count++;
+			}
+		
+		if (count == b.length()) {
 			System.out.println("anagram");
-		} else
-			System.out.println("not");
+		} else 
+			System.out.println("not anagram");
+		
 	}
-
 }

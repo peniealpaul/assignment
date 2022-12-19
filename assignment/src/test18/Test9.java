@@ -9,8 +9,7 @@ public class Test9 {
 				}
 		}
 		if (count == 0)
-			System.out.println(a);
-         }
+			System.out.println(a);}
         void fib(int a) {
 		int b = 1;
 		int c = 1;
@@ -26,7 +25,7 @@ public class Test9 {
           public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Test9 sc = new Test9();
-		sc.fib(100);
+		sc.fib(10000000);
           }
 
 }
